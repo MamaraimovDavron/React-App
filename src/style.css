@@ -1,0 +1,219 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.main--container{
+    position: absolute;
+    width: 317px;
+    height: 399px;
+    left: 116px;
+    top: 361px;
+    background-color: #1A1B21;
+}
+
+.container{
+    border-radius: 10px;
+    position: absolute;
+    width: 550px;
+    height: 868px;
+    left: 65px;
+    top: 53px;
+    background-color: #23252C;
+
+}
+
+.img--container{
+    position: absolute;
+    width: 317px;
+    height: 317px;
+    left: 116px;
+    top: 44px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.bio-container h1{
+    position: absolute;
+    width: 178.06px;
+    height: 25.81px;
+    left: 186px;
+    top: 382px;
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.bio-container h4{
+    position: absolute;
+    width: 178.06px;
+    height: 14.19px;
+    top: 414px;
+    left: 186px;
+    font-weight: 400;
+    font-family: monospace;
+    line-height: 15px;
+    text-align: center;
+    color: #F3BF99;
+    font-size: 12.8px;
+}
+
+.bio-container code{
+    position: absolute;
+    width: 228px;
+    height: 16px;
+    top: 437px;
+    left: 161px;
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    text-align: center;
+    color: #F5F5F5;
+    margin-top: 9px;
+}
+
+#about{
+    position: absolute;
+    width: 242.71px;
+    height: 21px;
+    left: 152px;
+    top: 535px;
+
+    font-family: monospace;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+    color: #F5F5F5;
+}
+
+.about--container p{
+    position: absolute;
+    width: 247px;
+    height: 61px;
+    left: 152px;
+    top: 561px;
+
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #DCDCDC;
+}
+
+#interest{
+    position: absolute;
+    width: 242.71px;
+    height: 21px;
+    left: 152px;
+    top: 649px;
+    font-family:monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #F5F5F5;
+}
+
+.interest--container p{
+    position: absolute;
+    width: 247px;
+    height: 61px;
+    left: 152px;
+    top: 675px;
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #DCDCDC;
+}
+
+.email--container {
+    text-decoration: none;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+
+    position: absolute;
+    width: 115px;
+    height: 34px;
+    left: 151px;
+    top: 468px;
+
+    background-color: white;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.email--container p{
+    width: 36px;
+    height: 16px;
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #374151;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.linkedin--container{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+
+    position: absolute;
+    width: 115px;
+    height: 34px;
+    left: 283px;
+    top: 468px;
+    background-color: #5093E2;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.linkedin--container p{
+    width: 57px;
+    height: 16px;
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: white;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.footer-container{
+    position: absolute;
+    width: 317px;
+    height: 64px;
+    left: 116px;
+    top: 760px;
+    background-color: #161619;
+    border-radius: 0px 0px 10px 10px;
+}
+
